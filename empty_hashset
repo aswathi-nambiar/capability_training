@@ -1,0 +1,17 @@
+ public class Solution {
+
+  public static void main(String[] args) {
+   HashSet<String> hash_set = new HashSet<String>();
+
+          hash_set.add("Sun");
+          hash_set.add("Moon");
+          hash_set.add("Star");
+          hash_set.add("Glaxy");
+
+    System.out.println("Values in Hash Set before removing elements: " + hash_set);
+    hash_set.removeAll(hash_set);
+    System.out.println("Hash Set after removing all the elements "+hash_set);  
+
+   }
+
+}
